@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Instrument Sans', 'Verdana', sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 80vh;
+    background-attachment: fixed;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-logo {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+    padding: 80px;
+    margin-top: 200px;
+}
+
+.hero h1 {
+    font-size: 58px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.latest-drops {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.shoe-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card img {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.brand-quote {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/quote.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 70% 80%; */
+    width: 100%;
+    height: 50vh;
+    /* background-attachment: fixed; */
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.brand-quote h1 {
+    padding: 0 50px;
+    width: 500px;
+    font-style: italic;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.signup-left {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signup-header {
+    font-size: 34px;
+}
+
+.signup-left button {
+    width: 80px;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signup-right img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    gap: 10px;
+    padding: 20px
+}
